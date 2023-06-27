@@ -1,0 +1,26 @@
+display_information:
+  name: Databricks-sql-bot
+features:
+  bot_user:
+    display_name: databricks-sql
+    always_online: true
+oauth_config:
+  scopes:
+    bot:
+      - chat:write
+      - channels:history
+      - groups:history
+      - mpim:history
+      - im:history
+      - app_mentions:read
+      - reactions:write
+      - users:read
+settings:
+  event_subscriptions:
+    bot_events:
+      - app_mention
+      - message.channels
+      - message.groups
+  org_deploy_enabled: false
+  socket_mode_enabled: true
+  token_rotation_enabled: false
