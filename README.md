@@ -10,7 +10,7 @@ Langchainの SQLDatabaseChainを利用し、Databricksのデータに対して�
 - EC2 or Lamdaなど pythonコードが動作する環境。デモの場合はPCでも可能です。
 
 ## Usage
-設定方法は、こちらのQiita記事をご覧ください。
+設定方法は、こちらのQiita記事をご覧ください。<br>
 [Databricksのデータに SQLDatabaseChainを使ってSlackからアクセスしてみた](https://qiita.com/maroon-db/ed862592efb65b06d2a9)
 
 ## Features
