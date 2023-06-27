@@ -11,6 +11,7 @@ Langchainの SQLDatabaseChainを利用し、Databricksのデータに対して�
 
 ## Usage
 設定方法は、こちらのQiita記事をご覧ください。
+https://qiita.com/maroon-db/ed862592efb65b06d2a9
 
 ## Features
 OpenAI APIを利用した自然言語での日本語チャットが可能。
