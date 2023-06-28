@@ -50,6 +50,10 @@ def respond_to_mention(body, say):
     # Send the response message
     say(message, channel=channel_id)
 
+@app.event("message")
+def handle_message_events(body, logger):
+    logger.info(body)
+
 # アプリを起動します
 if __name__ == "__main__":
     SocketModeHandler(app, os.environ["SLACK_APP_TOKEN"]).start()
